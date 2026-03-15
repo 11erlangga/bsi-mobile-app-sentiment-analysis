@@ -58,7 +58,7 @@ Project ini mengikuti standar [Cookiecutter Data Science](https://drivendata.git
     ├── requirements.txt       <- Daftar dependensi untuk mereproduksi environment analisis
     └── README.md              <- Dokumentasi utama proyek
 
-## 🚀 Cara Menjalankan Proyek (Reproduction)\
+## 🚀 Cara Menjalankan Proyek (Reproduction)
 
 1. **Clone repositori ini:**
    ```bash
