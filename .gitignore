@@ -1,0 +1,53 @@
+# ==========================================
+# File dan Folder Spesifik Proyek Ini
+# ==========================================
+
+# Abaikan semua model machine learning / deep learning yang berukuran besar
+models/*.joblib
+models/*.pkl
+*.h5
+*.pt
+*.pth
+
+# Abaikan dataset agar privasi data terjaga dan repo tidak bengkak
+# (Hanya biarkan folder kosongnya saja jika menggunakan .gitkeep)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Abaikan file Excel dan CSV yang mungkin tercecer di luar folder data
+*.csv
+*.xlsx
+
+# ==========================================
+# Python & Jupyter Notebook
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments (PENTING: agar library tidak ikut ter-upload)
+venv/
+env/
+.env
+.venv
+virtualenv/
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
