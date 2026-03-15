@@ -12,15 +12,19 @@ Proyek ini merupakan *submission* untuk kelas **Belajar Fundamental Deep Learnin
 
 ## 🛠️ Tech Stack & Libraries
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-20232A.svg?style=for-the-badge)
+![Gensim](https://img.shields.io/badge/Gensim-F19122.svg?style=for-the-badge)
+![NLTK](https://img.shields.io/badge/NLTK-315A8A.svg?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 - **Bahasa:** Python
-- **Libraries Utama:** `pandas`, `numpy`, `scikit-learn`, `lightgbm`, `gensim`, `nltk`
-- **Lainnya:** Jupyter Notebook, Git
+- **Libraries NLP & ML:** `nltk`, `gensim` (Word2Vec, FastText), `scikit-learn`, `lightgbm`
+- **Libraries Deep Learning:** `tensorflow`, `torch`
+- **Data Manipulation:** `pandas`, `numpy`
 
 ## 🗂️ Struktur Direktori
 
