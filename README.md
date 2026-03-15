@@ -11,6 +11,13 @@ Proyek ini bertujuan untuk mengekstraksi dan mengklasifikasikan sentimen penggun
 Proyek ini merupakan *submission* untuk kelas **Belajar Fundamental Deep Learning** pada program **Coding Camp 2026 dari Dicoding x DBS Foundation (Learning Path: AI Engineer)**. Repositori ini disusun dengan mengedepankan prinsip reproduktibilitas dan modularitas kode sesuai standar industri.
 
 ## 🛠️ Tech Stack & Libraries
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 - **Bahasa:** Python
 - **Libraries Utama:** `pandas`, `numpy`, `scikit-learn`, `lightgbm`, `gensim`, `nltk`
 - **Lainnya:** Jupyter Notebook, Git
@@ -27,7 +34,7 @@ Project ini mengikuti standar [Cookiecutter Data Science](https://drivendata.git
     │
     ├── models/                <- Model yang telah dilatih (FastText SVC, Stemmer Cache, Stopwords)
     │                             Note: File model (.joblib, .pkl) tidak diunggah ke repositori ini.
-    │                             [Tambahkan link Google Drive/HuggingFace untuk unduh model di sini]
+    │                             [Unduh Model di Sini](https://drive.google.com/drive/folders/1M3wcLBIN8-Skw3jSLVutaiusYz94kt3T?usp=sharing)
     │
     ├── notebooks/             <- Jupyter notebooks untuk eksplorasi dan pemodelan
     │   ├── 01_scraping.ipynb
@@ -47,11 +54,11 @@ Project ini mengikuti standar [Cookiecutter Data Science](https://drivendata.git
     ├── requirements.txt       <- Daftar dependensi untuk mereproduksi environment analisis
     └── README.md              <- Dokumentasi utama proyek
 
-## 🚀 Cara Menjalankan Proyek (Reproduction)
+## 🚀 Cara Menjalankan Proyek (Reproduction)\
 
 1. **Clone repositori ini:**
    ```bash
-   git clone [https://github.com/](https://github.com/11erlangga/sentiment-analysis-bsi-mobile.git)
+   git clone https://github.com/11erlangga/sentiment-analysis-bsi-mobile.git
    cd sentiment-analysis-bsi-mobile
     ```
 
@@ -65,10 +72,10 @@ Project ini mengikuti standar [Cookiecutter Data Science](https://drivendata.git
 3. **Install dependensi:**
     ```Bash
     pip install -r requirements.txt
+    ```
 
 4. **Unduh Model (Wajib untuk Inference):**
-    Unduh file model .joblib dan .pkl dari [Tautan Cloud Storage] dan letakkan di dalam folder models/ sebelum menjalankan notebook 07_inference.ipynb.
-    ```
+    Unduh file model `.joblib` dan `.pkl` dari [Tautan Google Drive](https://drive.google.com/drive/folders/1M3wcLBIN8-Skw3jSLVutaiusYz94kt3T?usp=sharing) dan letakkan di dalam folder `models/` sebelum menjalankan notebook `07_inference.ipynb`.
 
 ## 📊 Hasil Eksperimen
 Eksperimen dilakukan dengan membandingkan performa model Artificial Neural Network (ANN), LightGBM (LGBM), dan Support Vector Classifier (SVC) pada masing-masing *word embedding*. Karena indikasi adanya ketidakseimbangan kelas (*imbalanced data*) pada ulasan, **F1-Macro** dijadikan metrik evaluasi utama.
@@ -86,6 +93,6 @@ Berikut adalah performa model terbaik (berdasarkan F1-Macro) untuk masing-masing
 Kesimpulan: Secara keseluruhan, model Support Vector Classifier (SVC) konsisten menghasilkan keseimbangan presisi dan recall (F1-Score) terbaik di semua skenario representasi kata dibandingkan ANN dan LGBM. Kombinasi GloVe + SVC ditetapkan sebagai model terbaik dalam proyek ini karena berhasil meraih F1-Score tertinggi sebesar 0.7427, menjadikannya model yang paling optimal untuk menangani klasifikasi pada dataset ulasan ini.
 
 👨‍💻 Penulis
-Erlangga Sri Heryanto - https://www.linkedin.com/in/erlangga-sri-heryanto/ 
+Erlangga Sri Heryanto - [LinkedIn Profile](https://www.linkedin.com/in/erlangga-sri-heryanto/)
 
 *Proyek ini diselesaikan sebagai bagian dari Dicoding x DBS Foundation Coding Camp 2026.*
